@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Week 8 - Networking
-description:
-img: assets/img/9.jpg
-importance: 8
+title: Final
+description: 
+img: assets/img/6.jpg
+importance: 11
 category: work
-giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.
