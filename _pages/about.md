@@ -9,7 +9,7 @@ profile:
 
 ---
 
-Hello, I am a CS Major in Quincy house. I play clarinet in the pops orchestra, fight for glory at the Harvard Kendo Club, and like making video games.
+Hello, I am a CompSci Major in Quincy house. I play clarinet in the pops orchestra, fight for glory in the Harvard Kendo Club, and like making video games. I should probably be better at making websites but it's not really my thing.
 
 
 <div class="row justify-content-sm-center">
