@@ -29,6 +29,15 @@ giscus_comments: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Project2/BoxBase.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -37,7 +46,7 @@ giscus_comments: true
 </div>
 
 
-After printing out both the parts, I was pretty happy with myself. Unfortunately, I realized that having a seperate lid from the box was kind of dumb and would be more of a hassle. Since I was a little scrapped for time and didn't want to waste any more cardboard, I decided to modify the pieces I already had. First, I glued the inside of the box so it wouldn't fall apart. Then I cut the cardboard with scissors along the score lines. 
+After printing out both the parts, I was pretty happy with myself. Unfortunately, I realized that having a seperate lid for the box was kind of dumb and would be more of a hassle. Since I was a little scrapped for time and didn't want to waste any more cardboard, I decided to modify the pieces I already had. First, I glued the inside of the box so it wouldn't fall apart. Then I cut the cardboard with scissors along the score lines. 
 
 
 <div class="row">
@@ -47,7 +56,7 @@ After printing out both the parts, I was pretty happy with myself. Unfortunately
 </div>
 
 
-Then I glued the pieces together to get the the final result.
+Then I glued the pieces together to get the the final result. It was very fun.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -75,7 +84,7 @@ For the fusion tutorial, I did the first video that came up on youtube. https://
 
 ## Assignment 1: Household Objects
 
-For the household objects I decided with one that was simple and another one that was a little more complicated. The first one was a random charger I found in the lab. The process for the charger was straightforward as there wasn't too much that I hadn't already done for the box. I filleted the edges like they did in the youtube tutorial and learned that you can extrude cut to create different sized holes.
+For the household objects I decided with one that was simple and one that was a little more complicated. The first one was a random charger I found in the lab. The process for the charger was straightforward as there wasn't too much that I hadn't already done for the box. I filleted the edges like they did in the youtube tutorial and learned that you can extrude cut to create different sized holes.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -105,7 +114,7 @@ For the household objects I decided with one that was simple and another one tha
 
 
 
-The glue stick was a little more complicated. To create the tip, in a sketch I used a spline to create the side profile and hen used the revolve tool to rotate. The model still looks a little bit janky and not very detailed which I could come back to later with more time (I don't think I will).
+The glue stick was a little more complicated. To create the tip, in a sketch I used a spline to create the side profile and then used the revolve tool to rotate it around into a mesh. The model still looks a bit janky and not very detailed which I could come back to later with more time (I don't think I will).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
