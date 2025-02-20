@@ -17,15 +17,18 @@ giscus_comments: true
 </div>
 
 
-&nbsp;&nbsp;&nbsp;&nbsp; I still wanted to do something that involved an internal spur gear, and after playing around with a couple of things in the makerspace I decided to do something with magnets collecting eachother. Using what I learned earlier, I created a fusion sketch of a middle gear, a moving gear, and the internal gear and made everything smaller with more teeth to make the spinning smoother.
+&nbsp;&nbsp;&nbsp;&nbsp; I still wanted to do something that involved an internal spur gear, and after playing around with a couple of things in the makerspace, I decided to do something with a magnet moving around collecting other magnets. Using what I learned earlier, I created a fusion sketch of a middle gear, a moving gear, and the internal gear. I also made everything much smaller so the magnets were close enough to attach and with more teeth to make the spinning smoother.
 
 <div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project3/Gear5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Project3/Gear2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-To make this sculpture work without holding the motor with my hands, I created a base which holds the motor down without any glue or screws. This along with the fact that I was still using cardboard made everything very janky, but just good enough to work.
+To make this sculpture work without holding the motor with my hands, I created a base which holds the motor down without any glue or screws. This along with the fact that I was still using cardboard made everything very janky, but just good enough to work. My plan was to place a stack of magnets in the moving gear which would collect smaller magnets that were placed on the internal gear.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -33,7 +36,7 @@ To make this sculpture work without holding the motor with my hands, I created a
     </div>
 </div>
 
-Although I was initially using power from my computer, eventually I decided to just use the power bank because it was a little easier to iterate with and more reliable.
+Although I was initially using power from my computer, eventually I decided to just use the power bank because it was a little easier to iterate with and more reliable. The end of the video I took was unintentional but I thought it was cool enough to include it\ anyway.
 
 
 <div class="row justify-content-sm-center">
