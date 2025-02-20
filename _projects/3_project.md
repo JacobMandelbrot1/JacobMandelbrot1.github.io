@@ -8,131 +8,32 @@ category: work
 giscus_comments: true
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;I had a little trouble with this assignment because 
+&nbsp;&nbsp;&nbsp;&nbsp;I had a little trouble with this assignment because my pretty bad and not very well thought out. I wanted to make an arena with a spinning internal spur gear and knock a ball around inside. However, even though I eventually got the internal spur gear, after putting more thought into how the whole sculpture would work, I decided to scrap the idea.
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/ScreenShot1.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/TinyBox.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Project3/Gear1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;Next, I also made a mini-lid. I initially thought about making a handle for the lid, but decided to make something simpler and to just put a few holes in it. I experimented with a couple different designs and ultimately decided to go with a smiley face because it was cute and easy to hold with one hand. Unfortunately, all traces of the mini lids have been lost to time. 
-
-&nbsp;&nbsp;&nbsp;&nbsp;After finishing the mini prototypes, I went back to fusion to scale everything up. For the base of the box, all of the parameters were easy to scale except the number of fingers, which broke the mirror. After trying a couple solutions, I eventually just deleted all the mirrors and added new ones. The lid was much more straightforward to scale up. As I was doing this I felt my brain unlocking the power of parametric design. I also added some engraved text for extra spice.
+&nbsp;&nbsp;&nbsp;&nbsp; I still to do something that involved an internal spur gear and after playing with a couple of things in the makerspace, I decided to do something with magnets. I created a fusion sketch of one middle gear, a moving gear, and the internal gear. Using the knowledge I got from before, I decided to make everything smaller and use more teeth to make the spinning smoother.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot2.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Project3/Gear2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+To make this sculpture work without holding the motor, I created a base which holds the motor down without any glue or screws. This along with the fact that I was still using cardboard made everything very janky. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/BoxBase.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/BoxLid.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Project3/Gear4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-
-After printing out both the parts, I was pretty happy with myself. Unfortunately, I realized that having a seperate lid for the box was kind of dumb and would be more of a hassle. Since I was a little scrapped for time and didn't want to waste any more cardboard, I decided to modify the pieces I already had. First, I glued the inside of the box so it wouldn't fall apart. Then I cut the cardboard with scissors along the score lines. 
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/CutBoxLid.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+Although I was using the arduino powered by my computer, eventually I decided to just use the power bank because it was a little easier to use and more reliable.
 
 
-Then I glued the pieces together to get the the final result. It was very fun.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/FinishedBox.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/BoxOpen.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-
-For the fusion tutorial, I did the first video that came up on youtube. https://www.youtube.com/watch?v=d3qGQ2utl2A. It was of a lego brick and I learned some useful things like how to fillet edges which was useful later on.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot11.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot12.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-For the household objects I decided with one that was simple and one that was a little more complicated. The first one was a random charger I found in the lab. The process for the charger was straightforward as there wasn't too much that I hadn't already done for the box. I filleted the edges like they did in the youtube tutorial and learned that you can extrude cut to create different sized holes.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/ChargerBack.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/ChargerMeasure.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/ChargerCorner.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot10.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot8.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot14.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-
-
-
-
-The glue stick was a little more complicated. To create the tip, in a sketch I used a spline to create the side profile and then used the revolve tool to rotate it around into a mesh. The model still looks a bit janky and not very detailed which I could come back to later with more time (I don't think I will).
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/GlueBottom.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/GlueCorner.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/GlueBottom.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/GlueFront.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot9.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project2/Screenshot4.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-
-
+![Alt Text] (/assets/img/GearVid.gif)
