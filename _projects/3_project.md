@@ -16,7 +16,7 @@ giscus_comments: true
     </div>
 </div>
 
-
+ 
 &nbsp;&nbsp;&nbsp;&nbsp; I still wanted to do something that involved an internal spur gear, and after playing around with a couple of things in the makerspace, I decided to do something with a magnet moving around collecting other magnets. Using what I learned earlier, I created a fusion sketch of a middle gear, a moving gear, and the internal gear. I also made everything much smaller so the magnets were close enough to attach and with more teeth to make the spinning smoother.
 
 <div class="row justify-content-sm-center">
@@ -36,7 +36,7 @@ To make this sculpture work without holding the motor with my hands, I created a
     </div>
 </div>
 
-Although I was initially using power from my computer, eventually I decided to just use the power bank because it was a little easier to iterate with and more reliable. The end of the video I took was unintentional but I thought it was cool enough to include it\ anyway.
+Although I was initially using power from my computer, eventually I decided to just use the power bank because it was a little easier to iterate with and more reliable. The end of the video I took was unintentional but I thought it was cool enough to include anyway.
 
 
 <div class="row justify-content-sm-center">
