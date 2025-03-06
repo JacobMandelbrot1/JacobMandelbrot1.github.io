@@ -5,7 +5,7 @@ description:
 img: assets/img/Project3/GearTitle.jpg
 importance: 3
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;An issue I ran into with this assignment was that my first idea was pretty bad and not very well thought out. I wanted to make an arena with a spinning internal spur gear and knock a ball around inside. However, even though I eventually got the internal spur gear to spin, after thinking more about how the sculpture would actually work, I decided to scrap the idea.

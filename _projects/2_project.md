@@ -5,7 +5,7 @@ description:
 img: assets/img/Project2/TheEngineer.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 ## Assignment 1: Box

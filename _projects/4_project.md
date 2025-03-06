@@ -5,7 +5,7 @@ description:
 img: assets/img/Project4/AmongUsWires.png
 importance: 4
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp; Since I spent a lot of time last week on the kinesthetic sculpture, I decided to do something more straightforward this week. I chose to improve my kinesthetic sculpture and adapt it to use the potentiometer we learned how to use in lab. The first thing I did was convert all the gears into wood, create an opening in the moving gear where I could embed the magnet, and build a box to use as a structure.
