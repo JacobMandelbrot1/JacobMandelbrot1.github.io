@@ -77,7 +77,7 @@ Downloadables:
 
 ## Assignment 2: Photogrammetry
 
-For the photogrammetry assignment, I took a video of my shoe with my phone and put it into polycam, which did a very good job. Putting my shoe on the PCV pipe helped capture the bottom. Also, I think since maybe shoes are a pretty common thing to scan, that could be why it turned out so well.
+For the photogrammetry assignment, I took a video of my shoe with my phone and put it into polycam, which did a very good job. Putting my shoe on the PCV pipe helped capture the bottom. You can see it messed with the image a little bit though and I did a little bit of clean up. Also, I think since maybe shoes are a pretty common thing to scan, that could be why it turned out so well.
 
 
 <div class="row justify-content-sm-center">
