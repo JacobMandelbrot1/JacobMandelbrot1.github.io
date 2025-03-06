@@ -62,17 +62,18 @@ After getting the parts, I had to superglue the body together. There was one tim
 </div>
 
 Downloadables: 
-<a download href='assets/img/Project5/Head.stl'>Download Head. </a>
 
-<a download href='assets/img/Project5/Arm.stl'>Download Arm. </a>
+<a download href='/assets/img/Project5/Head.stl'>Download Head. </a>
 
-<a download href='assets/img/Project5/MiddleBody.stl'>Download the Middle Body. </a>
+<a download href='/assets/img/Project5/Arm.stl'>Download Arm. </a>
 
-<a download href='assets/img/Project5/ExtraBody.stl'>Download Extra Body Parts. </a>
+<a download href='/assets/img/Project5/MiddleBody.stl'>Download the Middle Body. </a>
 
-<a download href='assets/img/Project5/Legs.stl'>Download Legs. </a>
+<a download href='/assets/img/Project5/ExtraBody.stl'>Download Extra Body Parts. </a>
 
-<a download href='assets/img/Project5/3DPrintedSteve.gcode'>Download Gcode file. </a>
+<a download href='/assets/img/Project5/Legs.stl'>Download Legs. </a>
+
+<a download href='/assets/img/Project5/3DPrintedSteve.gcode'>Download Gcode file. </a>
 
 
 ## Assignment 2: Photogrammetry
