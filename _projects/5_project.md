@@ -10,7 +10,7 @@ giscus_comments: false
 
 ## Assignment 1: 3D Printing
 
-&nbsp;&nbsp;&nbsp;&nbsp; To help me start thinking about how to build my final project, this week I decided to practice embedding magnets into a simple 3D printed character. First I made a sketch to get an idea of the character's size. 
+I wanted to get started on parts of my final project, so this week, I decided to practice embedding magnets into a simple 3D printed character. First I made a sketch to get an idea of the character's size. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -18,7 +18,7 @@ giscus_comments: false
     </div>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp; Next I practiced embedding magnets with small cubes. The process is creating a pause in the 3D print where you can place a magnet and then resume it. I had to redo it once because the hole I made for the magnet wasn't large enough to fit it in.
+Next, I made a test using small cubes. The process for embedding magnets is creating a pause in the 3D print where you can place a magnet and then resume it. I had to redo it once because the hole I made for the magnet wasn't large enough to fit it in the magnet.
 
 
 <div class="row justify-content-sm-center">
@@ -30,7 +30,7 @@ giscus_comments: false
     </div>
 </div>
  
-&nbsp;&nbsp;&nbsp;&nbsp; Once I got the cubes working, I started working on the character. Because you can not use this technique to place magnets on the top and bottom of the body and on the left and right, I had to split the body into multiple pieces. It also took a few iterations to get them to print correctly, and I had to rip out the magnets from failed prints a cople times.
+Once I got the cubes working, I started working on the character. Because you can not use this technique to place magnets on the top and bottom of the body and on the left and right, I had to split the body into multiple pieces. It also took a many iterations to get them to print correctly, and I had to rip out the magnets from failed prints a couple times.
 
 
 
@@ -46,7 +46,7 @@ giscus_comments: false
     </div>
 </div>
 
-After getting the parts, I had to superglue the body together. There was one time when the magnet I was putting superglue on attached to another part I was holding which hard, but besides that it was straightforward. Here are the results!
+After getting the parts, I had to superglue the body together. There was one time when the magnet I was putting superglue on attached to another part I was holding which hurt, but besides that, it was straightforward. Here are the results!
 
 
 <div class="row justify-content-sm-center">
@@ -90,10 +90,13 @@ For the photogrammetry assignment, I took a video of my shoe with my phone and p
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Project5/Screenshot4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
+     <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project5/Screenshot3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 ## Assignment 3: Final Project Planning:
 
-Information on Final Project page.
+Information on Final Project at the bottom of PS70 Projects in the "Final" part.
 
 
