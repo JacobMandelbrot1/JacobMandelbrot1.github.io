@@ -1,80 +1,84 @@
 ---
 layout: page
 title: Week 6 - Inputs
-description:
-img: assets/img/12.jpg
+description: 
+img: assets/img/Project6/capacitor_man.jpg
 importance: 6
 category: work
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Photoresistor
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+For the sensor, I used a photoresistor along with an LED. This week was exciting for me because I can finally wire things without asking tooo many questions.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/LightSensor.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Project6/6.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/13.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/14.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
 
-{% endraw %}
+For testing, I used my Japanese textbook and measured how shining my phone's light through a set number of pages affected the magic light number. In the code, it prints the average of 3 seconds with the millis function.
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/10.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+ 
+At some point the pages with the light made it darker than without anything (2404), so the experiment might have been better in a darker room. Also, the graph shows that it was in fact not a linear relationship. Doing some research, this is because light also does not spread out in space in a linear way.
+
+## Capacitor
+
+For the capacitive sensor, I also measured the distance in number of pages of my Japanese textbook. The further the distance, generally the less capacitance, but some of the results toward the end were a little weird. If I were to do this assignment again, I would have added some extra trials.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/7.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/11.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+## 2D DXF Files
+
+For CNC Week, looking at some of the examples, I want to make a wooden cutout of something related to kendo. I looked around online and found some interesting reference images. At first, I was tracing them myself in Illustrator until I found the Illustrator image trace tool which made it much easier. Then I found online that you can just convert pngs to dxfs, which gave me some interesting results which I modified a bit.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/12.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Image traced version
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+     <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
