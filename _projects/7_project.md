@@ -53,6 +53,20 @@ Here is a video of controlling the game character. As you can see, the rotation 
     </div>
 </div>
 
-Although I didn't have enough time for it this week, for the next steps I would definitely like to begin wiring everything off the breadboard so it can be put into a compact 3d print.
+Here is what I got on the Oscilliscope. The first image is testing the sda pin, which was on a fixed clock going a consistent 5us on and 5us off repeatedly. The last two images are testing the power, which is going crazy.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project7/9.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project7/8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project7/7.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Although I didn't have enough time for it this week, for the next steps I would definitely like to begin wiring everything off the breadboard and putting it into a compact 3d print.
 
 
