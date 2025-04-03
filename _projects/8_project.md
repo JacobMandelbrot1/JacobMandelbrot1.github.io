@@ -44,7 +44,7 @@ There was less contrast on the wood than on the original image which made it a l
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Project8/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Project8/12.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -87,7 +87,7 @@ I tried again, but this time by using a whole brain cell I scraped the top of th
         {% include figure.liquid path="assets/img/Project8/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
      <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Project8/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Project8/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
