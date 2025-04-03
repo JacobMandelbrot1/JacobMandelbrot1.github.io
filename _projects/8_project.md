@@ -1,81 +1,99 @@
 ---
 layout: page
-title: Week 8 - Networking
-description:
-img: assets/img/9.jpg
+title: Week 8 - CNC Milling
+description: 
+img: assets/img/Project8/10.jpg
 importance: 8
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## CNC
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+For CNC Week, I wanted to make something related to kendo (sword martial art). I looked around online and found some interesting reference images. At first, I was tracing them myself in Illustrator until I found a tool online that can automatically convert to dxf.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/12.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Project6/4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+However, the dxf was too complicated and fine detailed for the CNC machine. Luckily, there was a tool in Illustrator I used to image trace the original image, which I then put through the dxf converter.
 
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+     <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project6/5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
 
-{% endraw %}
+After finishing the dxf, I moved it into Aspire. Some pockets were still too small and I had to set them to cutting on the line. This was the result. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+There was less contrast on the wood than on the original image which made it a little harder to understand. To fix this, I tried highlighting parts of it. I also sanded it down a bit.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+## Molding
+
+For molding and casting, I wanted to create a sword handle to use on my kendo sword. I found a 3D model in Thingiverse and in Fusion, added a small box to hold the mold. After the print finished, I added the magic silicone at 1 am which was a little surreal.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/7.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+## Casting
+
+I used plaster for casting. For some reason I thought it would be easy to to take of the bottom when it finished, but I ended up shattering it.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+     <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+I tried again, but this time by using a whole brain cell I scraped the top of the plaster with my finger before it hardened.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+     <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+I ended up breaking it again. This week I learned that plaster is not that strong.
+
+
+
+
+
