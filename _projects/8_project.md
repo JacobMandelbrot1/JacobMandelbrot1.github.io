@@ -40,11 +40,19 @@ After finishing the dxf, I moved it into Aspire. Some pockets were still too sma
     </div>
 </div>
 
-There was less contrast on the wood than on the original image which made it a little harder to understand. To fix this, I tried highlighting parts of it. I also sanded it down a bit.
+There was less contrast on the wood than on the original image which made it a little harder to understand. To fix this, I tried highlighting parts of it with color. I also sanded it down a bit.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/Project8/12.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Final version.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project8/13.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
