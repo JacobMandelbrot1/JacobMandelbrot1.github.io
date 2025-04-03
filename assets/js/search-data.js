@@ -94,8 +94,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-week-8-networking",
-          title: 'Week 8 - Networking',
+            },},{id: "projects-week-8-cnc-milling",
+          title: 'Week 8 - CNC Milling',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
