@@ -11,7 +11,7 @@ giscus_comments: false
 This week Jordan and I worked on the part of my final project which requires sending a lot of data from hardware to Unity through the wifi.
 
 
-Originally, I was just using sending data on a timer to Unity, but for this week, I switched to using WebSockets which were a little trickier to set up. Unfortunately, there was no built-in Unity packages for recieving WebSockets, so it took trying a few plug-ins from github before it actually started to work.
+Originally, I was just using sending data on a timer to Unity, but for this week, I switched to using WebSockets which were a little trickier to set up. Unfortunately, there was no built-in Unity packages for receiving WebSockets, so it took trying a few plug-ins from github before it actually started to work.
 
 The next thing on the agenda was creating some sort of system for detecting different objects/parts. From the design review, it seemed like RFID would work the best. One problem was making sure that if there wasn't currently a tag being held in front of the scanner it should return 00 instead of the last ID it scanned. 
 
