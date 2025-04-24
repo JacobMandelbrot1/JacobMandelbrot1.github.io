@@ -33,3 +33,9 @@ Here is a model I made in fusion. Using the dimensions of the parts of I am goin
         {% include figure.liquid path="assets/img/Project5/Screenshot7.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+Game Stuff:
+Along with the actual character that is being controlled by the fancy device I am making, I made a regular character that is controlled by the keyboard so I can test and make sure the game is fun. Right now, I want the attachable component on the character to be unique types of shields, so in the game I have created the system for managing shields, shields blocking damage, and I have started to work on the enemies.
+
+Engineering:
+For the networking assignment, I finished a lot of the engineering like fixing the accelerometer and attaching the RFID scanner and some buttons. Right now, I am waiting on a proto board and RFID stickers which were ordered recently.
