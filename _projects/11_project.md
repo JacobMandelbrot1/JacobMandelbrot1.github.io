@@ -34,8 +34,34 @@ Here is a model I made in fusion. Using the dimensions of the parts of I am goin
     </div>
 </div>
 
-Game Stuff:
-Along with the actual character that is being controlled by the fancy device I am making, I made a regular character that is controlled by the keyboard so I can test and make sure the game is fun. Right now, I want the attachable component on the character to be unique types of shields, so in the game I have created the system for managing shields, shields blocking damage, and I have started to work on the enemies.
+During week 7, I connected the ESP32 to Unity. As you can see, the rotation works decently well, but the acceleration/movement is still a little buggy and will require more bug fixing. It's tricky because the MPU6050 only sends the changes in position/rotation not the actual rotation and position.
 
-Engineering:
-For the networking assignment, I finished a lot of the engineering like fixing the accelerometer and attaching the RFID scanner and some buttons. Right now, I am waiting on a proto board and RFID stickers which were ordered recently.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project7/Video.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+During week 9, I switched to using web sockets which made the connection stronger. I also added all the components to the breadboard that I will eventually to fit into my controller. Looking at how much space it takes up, I will definitely to eventually redesign my model. I also fixed many bugs in the Unity code and made some design changes to make it work better.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project9/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Project9/PS70P9.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Game Stuff:
+
+Before the last class, along with the actual character that is being controlled by the device I'm making, I made a regular character that is controlled by the keyboard so I can test and make sure the game is fun. Right now, I want the attachable component on the character to be unique types of shields, so in the game I have created the system for managing shields, shields blocking damage, combining shields, and enemies.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Final/1.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Currently, I have gotten a proto board and will start soldering on my components soon. I am also waiting for RFID stickers.

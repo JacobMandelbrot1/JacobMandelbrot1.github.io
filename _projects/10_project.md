@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Machine Building
+title: Week 10 - Machine Building
 description: 
-img: assets/img/6.jpg
+img: assets/img/Project10/Lasereye.jpg
 importance: 10
 category: work
 ---
