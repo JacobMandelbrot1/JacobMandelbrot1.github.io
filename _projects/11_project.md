@@ -13,7 +13,7 @@ For my final project, I created a game and a game controller with detachable mag
 Video note: My phone didn't capture colors like yellow and pink on the screen for some reason.
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Final/FinalShowoff.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Final/FinalShowoff1.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
