@@ -8,7 +8,7 @@ category: final
 ---
 
 ## Overview
-For my final project I created a game and a game controller with detachable magnetic components. In the game, you fight a boss and survive by using the detachable components, which are shields that each have different abilities. My motivation was to create a frantic and difficult game that also forces you to use your hand eye coordination and move things in the real world.
+For my final project, I created a game and a game controller with detachable magnetic components. In the game, you fight a boss and survive by using the detachable components, which are shields that each have different abilities. My motivation was to create a frantic and difficult game that also forces you to use your hand eye coordination and move things in the real world.
 
 Video note: My phone didn't capture colors like yellow and pink on the screen for some reason.
 <div class="row justify-content-sm-center">
